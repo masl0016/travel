@@ -1,0 +1,344 @@
+
+/*******************************************
+Template Icons Provided by
+"Open Iconic — www.useiconic.com/open"
+*******************************************/
+
+
+
+
+@charset "utf-8";
+
+/*******************************************
+				Defaults
+
+Remember to use something like type-scale.com 
+to get your font sizes
+*******************************************/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+html,
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #20c2d0;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {} h4 {} h5 {} p {}
+
+/*******************************************
+				Layout
+*******************************************/
+
+.wrapper {
+    background-color: black;
+    max-width: 940px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1.25rem;
+    margin: 0 auto;
+}
+
+.masthead {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 0.625rem
+}
+
+.logo{
+    
+    
+}
+
+.menuPlace {
+    color: black;
+    text-align: center;
+    display: block;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    border: solid #20c2d0;
+}
+
+
+.menuPlace span{
+    
+}
+
+
+.main {
+    width: 100%;
+    padding: 1.25rem 0 0.625rem;
+}
+
+.banner {
+    margin-bottom: -0.3125rem;
+}
+
+#bg {
+    width: 100%;
+}
+
+.foot {
+    color: #10547F;
+    clear: both;
+    text-align: center;
+    display: block;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    -moz-box-shadow: 0 0 5px 2px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    box-shadow: 0 0 5px 2px #20c2d0;
+}
+
+/*******************************************
+				Form Styles
+*******************************************/
+
+form {
+    overflow: hidden;
+    background: url(../img/bg_pattern.png) repeat scroll 0px 0px transparent;
+    font-family: 'Quicksand', sans-serif;
+    -moz-box-shadow: 0 0 5px 2px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    box-shadow: 0 0 5px 2px #20c2d0;
+    margin: 0 auto;
+}
+
+.formBox {
+    width: 90%;
+    padding: 0.3125rem;
+    margin-top: 0.625rem;
+    margin-left: 4%;
+    margin-bottom: 0.625rem;
+    background: black;
+    color: #20c2d0;
+    font-size: 0.9375rem;
+    line-height: 1.563rem;
+    -moz-box-shadow: 0 0 5px 2px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    box-shadow: 0 0 5px 2px #20c2d0;
+}
+
+.formBox input{
+    margin: 0 0 6px 0;  
+}
+
+.col {
+    width: 87%;
+    padding: 0.625rem;
+    margin-left: 4%;  
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    background: black;
+    color: #20c2d0;
+    font-size: 0.9375rem;
+    display: block;
+    -moz-box-shadow: 0 0 5px 2px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    box-shadow: 0 0 5px 2px #20c2d0;
+}
+
+.formBox h4{
+    padding-left: 10px;
+}
+
+.col h4{
+    padding-left: 6px;
+}
+
+#price {
+    width: 90%;
+    padding: 0.3125rem;
+    margin-left: 4%;
+    display: block;
+}
+
+.colbuttons {
+} 
+
+.col output {
+    width: 98%;
+    padding: 0.3125rem;
+}
+
+label {
+    float: left;
+}
+
+input[type=text],
+
+input[type=number],
+
+input[type=date] {
+    height: 1.25rem;
+    width: 90%; 
+    margin-left: 3%;
+    padding-left: 4%;
+    border: 0.0625rem solid #aaa;
+    box-shadow: 0px 0px 0.1875rem #ccc, 0 0.625rem 0.9375rem #eee inset;
+}
+
+input[type=submit],
+
+input[type=reset] {
+    width: 50%;
+    padding: 0.3125rem;
+    margin-top: 0.625rem;
+    margin-left: 25%;
+    margin-bottom: 0.625rem;
+    background: black;
+    color: #20c2d0;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.563rem;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1875rem;
+    -moz-box-shadow: 0 0 5px 2px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    -webkit-box-shadow: 0 0 2px 5px #20c2d0;
+    box-shadow: 0 0 5px 2px #20c2d0;
+}
+
+/*******************************************
+				Image Styles
+*******************************************/
+
+
+#departure{
+    background-image: url(../img/home.svg);
+    background-position: 0.4375rem 0.4375rem;
+    background-repeat: no-repeat;
+    text-indent: 0.9375rem;
+}
+
+#destination{
+    background-image: url(../img/globe.svg);
+    background-position: 0.4375rem 0.4375rem;
+    background-repeat: no-repeat;
+    text-indent: 0.9375rem;
+}
+
+#departure_dt{
+    background-image: url(../img/calendar.svg);
+    background-position: 0.4375rem 0.4375rem;
+    background-repeat: no-repeat;
+    text-indent: 0.625rem;
+}
+
+
+#return_dt{
+    background-image: url(../img/calendar.svg);
+    background-position: 0.4375rem 0.4375rem;
+    background-repeat: no-repeat;
+    text-indent: 0.625rem;
+}
+
+#num_adults{
+    background-image: url(../img/people.svg);
+    background-position: 0.4375rem 0.25rem;
+    background-repeat: no-repeat;
+    text-indent: 0.9375rem;
+    width:8rem;
+    margin-left: 5px;
+}
+
+div.col:nth-child(6){
+    background-position: 0.625rem 2.188rem;
+    background-repeat: no-repeat;
+    text-indent: ;
+    width:7.75rem;
+}
+
+div .col>h4{
+    padding-bottom: 5px;
+}
+div.col:nth-child(6){
+    background-position: 0.625rem 2.188rem;
+    background-repeat: no-repeat;
+
+    background-image: url(../img/dollar.svg);
+}
+
+
+/*******************************************
+				Media Queries
+*******************************************/
+
+@media screen and (max-width:499px) {
+
+    
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 780px) {
+
+    .formBox {
+        float: left;
+        width: 42.5%;
+    }
+
+    .col {
+        height: 3.125rem;
+        width: 40.7%;
+        float: left;
+    }
+    
+    #price {
+        width: 90%;
+        margin: 0.3125rem;
+    }
+
+    .colbuttons {
+        clear: both;
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+   div.col:nth-child(6){
+    background-position: 0.3125rem 2.5rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/dollar.svg);
+}
+}
+
+
+
+@media screen and (min-width: 780px){
+
+    .col {
+        width: 42.5%;
+        float: left;
+    }
+    
+    .formBox {
+        float: left;
+        display: block;
+        width: 19.2%;
+    }
+
+    .colbuttons {
+        width: 100%;
+    }
+}

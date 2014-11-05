@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Travel Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+
+
+
+
+    <div class="wrapper">
+        <header class="masthead">
+            <h1>Travel Booker</h1>
+        </header>
+        <section class="main">
+
+            <form name="travelForm" id="travelForm" action="#" method="post" enctype="application/x-www-form-urlencoded">
+
+                <div class="formBox">
+                    <h4>Departure City</h4>
+                    <label for="departure"></label>
+                    <input type="text" name="departure" id="departure" placeholder="City" required autocomplete="on" list="city"/>
+                </div>
+
+                <datalist id="city">
+                    <option value="Adelaide">
+                    <option value="Bandung">
+                    <option value="Bangkok">
+                    <option value="Beijing">
+                    <option value="Hanoi">
+                    <option value="Ho Chi Minh City">
+                    <option value="Hong Kong">
+                    <option value="Jakarta">
+                    <option value="Kuala Lumpur">
+                    <option value="Osaka">
+                    <option value="Seoul">
+                    <option value="Shanghai">
+                    <option value="Singapore">
+                    <option value="Surabaya">
+                    <option value="Sydney">
+                    <option value="Tokyo">
+                </datalist>
+
+
+                <div class="formBox">
+                    <h4>Destination City</h4>
+                    <label for="destination"></label>
+                    <input type="text" name="destination" id="destination" placeholder="City" required autocomplete="on" list="city"/>
+                </div>
+
+                <datalist id="city">
+                    <option value="Adelaide">
+                    <option value="Bandung">
+                    <option value="Bangkok">
+                    <option value="Beijing">
+                    <option value="Hanoi">
+                    <option value="Ho Chi Minh City">
+                    <option value="Hong Kong">
+                    <option value="Jakarta">
+                    <option value="Kuala Lumpur">
+                    <option value="Osaka">
+                    <option value="Seoul">
+                    <option value="Shanghai">
+                    <option value="Singapore">
+                    <option value="Surabaya">
+                    <option value="Sydney">
+                    <option value="Tokyo">
+                </datalist>
+                
+                
+                <div class="formBox">
+                    <h4>Departing on:</h4>
+                    <label for="departure_dt"></label>
+                    <input type="date" name="departure_dt" id="departure_dt" placeholder="Departure Date" required/>
+                </div>
+
+                <div class="formBox">
+                    <h4>Returning on:</h4>
+                    <label for="return_dt"></label>
+                    <input type="date" name="return_dt" id="return_dt" placeholder="Return Date" required/>
+                </div>
+
+                <div class="col">
+                    <h4>Guests:</h4>
+                    <label for="num_adults"></label>
+                    <select name="num_adults" id="num_adults">
+                        <option value="1">1 Adult (18+)</option>
+                        <option value="2">2 Adults (18+)</option>
+                        <option value="3">3 Adults (18+)</option>
+                        <option value="4">4 Adults (18+)</option>
+                        <option value="5">5 Adults 18+)</option>
+                        <option value="6">6 Adults (18+)</option>
+                        <option value="7">7 Adults (18+)</option>
+                        <option value="8">8 Adults (18+)</option>
+                        <option value="9">9 Adults (18+)</option>
+                        <option value="10">10 Adults (18+)</option>
+                    </select>
+                    
+                </div>
+
+                <div class="col">
+
+
+                    <label for="price" title="Max. price per person">Max. Price: $</label>
+                    <output name="amount" for="price">1000</output>
+                    <input type="range" name="price" id="price" min="100" max="2000" value="1000" oninput="amount.value=price.value" step="100">
+
+
+                </div>
+
+                <div class="colbuttons">
+                    <input type="reset" name="btnReset" id="btnReset" value="RESET" />
+                    <input type="submit" name="btnSubmit" id="btnSubmit" value="SUBMIT" />
+                </div>
+            </form>
+
+        </section>
+
+
+        <footer class="foot">
+            <p>&copy; 2014 Chicken Stuff Inc.</p>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
